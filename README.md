@@ -116,19 +116,23 @@ GROQ_API_KEY=your_api_key_here
 Start the backend:
 
 ```bash
-npm run server
+cd Backend
+npm start
 ```
 
 or
 
 ```bash
+cd Backend
 node server.js
 ```
 
-If there's a frontend:
+for frontend frontend:
 
 ```bash
-npm start
+cd ..
+cd Frontend
+npm run dev
 ```
 
 ---
@@ -138,10 +142,10 @@ npm start
 Once everything is running, open:
 
 ```
-http://localhost:3000
+ http://localhost:5173/
 ```
 
-(or backend runs on `http://localhost:5000`)
+(or backend runs on `http://localhost:8080`)
 
 ---
 
